@@ -18,6 +18,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 patch_all()
 
+#add comment here
 dynamodb = boto3.resource('dynamodb')
 
 
